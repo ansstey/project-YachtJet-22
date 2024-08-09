@@ -9,25 +9,21 @@
   border: 1px solid #fbfbfb;
   padding-left: 20px;
   padding-right: 20px;
-  
 }
 .nav-list {
   display: none;
   /* display: flex; */
   align-items: center;
   justify-content: flex-end;
-  gap: 40px;
+  gap: 4px;
 }
 .navigation {
   display: flex;
-  
-  
 }
 
 .header-social-link {
   display: none;
   max-width: 88px;
-  margin-left: auto;
 }
 .header-list {
   display: flex;
@@ -51,21 +47,109 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo {
-font-weight: 500;
-font-size: 14px;
-letter-spacing: -0.03em;
-color: #1b414b;
-font-family: "Inter", sans-serif;
-padding-top: 12px;
-padding-bottom: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.03em;
+  color: #1b414b;
+
+  font-family: 'Inter', sans-serif;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .menu-icon {
-  stroke-width: 2.50px;
-stroke: #1b414b;
+  stroke-width: 2.5px;
+  stroke: #1b414b;
 }
 .menu-open-button {
   background-color: transparent;
   margin-left: auto;
   padding-top: 7px;
   padding-bottom: 7px;
+}
+@media screen and (min-width: 768px) {
+  .header-social-link {
+    display: block;
+    max-width: 88px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .menu-open-button {
+    display: none;
+  }
+  .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    margin: 0 auto;
+  }
+  .logo {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    color: #1b414b;
+  }
+  .header-container {
+    
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-social-link {
+    display: block;
+    max-width: 88px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .menu-open-button {
+    display: none;
+  }
+  .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 auto;
+  }
+  .logo {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    color: #1b414b;
+  }
+  .header-container {
+    
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-social-link {
+    display: block;
+    max-width: 88px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .menu-open-button {
+    display: none;
+  }
+  .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 auto;
+  }
+  .logo {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    color: #1b414b;
+  }
+  .header-container {
+    
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }

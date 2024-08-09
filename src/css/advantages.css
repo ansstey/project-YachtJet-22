@@ -1,0 +1,122 @@
+.container {
+  max-width: 375px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advantages {
+  font-family: 'Inter', sans-serif;
+}
+
+ol {
+  list-style-type: none;
+}
+
+.numbers {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #fbfbfb;
+  opacity: 0.8;
+  padding-bottom: 18px;
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  width: 238px;
+  padding-top: 18px;
+}
+.advantages-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advantages-line {
+  border-radius: 18px;
+  width: 295px;
+  height: 2px;
+  background: rgba(251, 251, 251, 0.1);
+}
+
+.advantages-list {
+  border-radius: 24px;
+  max-width: 335px;
+  height: 642px;
+  background-color: #1b414b;
+  padding: 80px 20px;
+  margin: 20 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 24px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .advantages-list {
+    max-width: 704px;
+    padding: 32px;
+    height: 424px;
+  }
+  .advantages-foto {
+    max-width: 704px;
+  }
+
+  .advantages-text {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1188px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .container-advantages {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 32px;
+  }
+  .advantages-list {
+    max-width: 716px;
+    padding: 90px 50px;
+    height: 424px;
+    flex-wrap: wrap;
+  }
+  .advantages-foto {
+    max-width: 432px;
+    height: 424px;
+    padding: 16px 0;
+    margin: 0 auto;
+  }
+  .advantages-item {
+    width: 280px;
+    height: 100px;
+  }
+}

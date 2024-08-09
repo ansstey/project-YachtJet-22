@@ -47,11 +47,12 @@
 }
 
 .reviews-image {
-  display: flex;
+  /* display: flex; */
+  display: block;
   align-items: center;
   justify-content: center;
   border-radius: 72px;
-  margin-top: 32px;
+  margin: 32px auto 0px auto;
   position: absolute;
   top: 0;
   left: 50%;
@@ -83,6 +84,7 @@
   text-align: center;
   color: rgba(4, 3, 6, 0.4);
   width: 320px;
+  margin: 0 auto;
 }
 
 .reviews-item-victoria {

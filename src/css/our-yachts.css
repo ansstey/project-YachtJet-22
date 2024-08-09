@@ -67,7 +67,9 @@
   width: 100%;
   border-collapse: collapse;
 }
-
+.yacht-table .yacht-row:not(:last-child) {
+  padding-bottom: 6px;
+}
 .yacht-row-title {
   display: flex;
     justify-content: space-between;

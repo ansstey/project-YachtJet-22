@@ -94,6 +94,11 @@
     padding-left: 28px;
     padding-right: 28px;
   }
+  .header {
+  
+    padding: 32px;
+
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -123,6 +128,12 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+  .header {
+
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 32px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -151,5 +162,11 @@
     
     padding-left: 30px;
     padding-right: 30px;
+  }
+  .header {
+
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 32px;
   }
 }

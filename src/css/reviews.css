@@ -1,0 +1,135 @@
+/* -----REVIEWS---------*/
+.reviews {
+  padding: 80px, 20px;
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  max-width: 335px;
+  /* margin: 0px auto; */
+  margin-bottom: 25px;
+}
+
+.reviews-text {
+  display: flex;
+  align-items: center;
+  max-width: 335px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  opacity: 0.4;
+  margin-bottom: 40px;
+}
+
+.reviews-item {
+  padding: 32px 8px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  background: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  max-width: 335px;
+  margin: 0px auto;
+}
+
+.reviews-image {
+  border-radius: 72px;
+  margin-bottom: 24px;
+}
+
+.reviews-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  margin-bottom: 8px;
+}
+
+.reviews-review {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+  max-width: 335px;
+  margin: 0 auto;
+}
+
+.reviews-item-victoria {
+  display: none;
+}
+
+.reviews-item-ihor {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews {
+    padding: 150px, 32px;
+  }
+
+  .reviews-title {
+    font-size: 48px;
+    max-width: 704px;
+  }
+
+  .reviews-text {
+    font-size: 14px;
+    line-height: 1.29;
+    margin-bottom: 75px;
+    max-width: 501px;
+  }
+
+  .reviews-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .reviews-item-victoria {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-title {
+    max-width: 854px;
+  }
+
+  .reviews-text {
+    max-width: 571px;
+  }
+
+  .reviews-list {
+    gap: 26px;
+  }
+
+  .reviews-item {
+    padding: 32px 28px;
+  }
+
+  .reviews-item-ihor {
+    display: flex;
+  }
+}

@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: blue;
 }
 
 .reviews-title {
@@ -36,12 +35,6 @@
   color: #fbfbfb;
   opacity: 0.4;
   margin-bottom: 40px;
-}
-
-.reviews-list {
-}
-
-.reviews-item-john {
 }
 
 .reviews-item {
@@ -112,9 +105,6 @@
     align-items: center;
     justify-content: center;
     gap: 32px;
-  }
-
-  .reviews-item {
   }
 
   .reviews-item-victoria {

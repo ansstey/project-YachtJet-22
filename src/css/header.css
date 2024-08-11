@@ -46,7 +46,7 @@
   fill: #062730;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.logo {
+.header-logo {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: -0.03em;
@@ -83,7 +83,7 @@
 
     margin: 0 auto;
   }
-  .logo {
+  .header-logo {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: -0.03em;
@@ -117,7 +117,7 @@
     justify-content: flex-end;
     margin: 0 auto;
   }
-  .logo {
+  .header-logo {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: -0.03em;
@@ -152,7 +152,7 @@
     justify-content: flex-end;
     margin: 0 auto;
   }
-  .logo {
+  .header-logo {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: -0.03em;

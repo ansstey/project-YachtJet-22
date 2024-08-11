@@ -3,18 +3,17 @@
     margin-top: -35px;
     min-width: 320px;
     max-width: 375px;
-    height: 927px;
+    height: 877px;
     background-color: #0e1823;
     padding-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 0px;
 }
-.container{
+.about-us{
     width: 100%;
     height: 675px;
-    padding: 40px 20px 0;
-    margin: 0 auto;
+    padding-top: 40px;
     background-color:#fbfbfb;
     color:#FFF;
     border-radius: 24px;
@@ -27,7 +26,6 @@
 .img-about{
     width: 100%;
     border-radius: 24px 24px 0 0;
-    margin-top: -163px;
 }
 .subscribe-title{
     width: 270px;
@@ -39,11 +37,13 @@
     color: #1b414b;
     margin-top: 0px;
     margin-bottom: 40px;
+    margin-left: 20px;
 }
 .subscribe-text{
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
+    margin-left: 20px;
 }
 .text-top{
     margin-bottom: 20px;
@@ -85,15 +85,10 @@
         font-size: 48px;
         margin-bottom: 50px;
     }
-    .container{
-        padding-left: 30px;
-        padding-right: 30px;
+    .about-us{
         padding-top: 50px;
         padding-bottom: 0px;
         height: 740px;
-    }
-    .img-about{
-        margin-top: -210px;
     }
    
 .subscribe-title{
@@ -121,9 +116,6 @@
     .subscribe-text{
         margin-bottom: 50px;
     }
-    .img-about{
-        margin-top: -404px;
-    }
 .subscribe{
     max-width: 1280px;
     padding-left: 50px;
@@ -134,13 +126,18 @@
 }
 .subscribe-title{
     margin: 0px;
+    margin-left: 30px;
    width: 537px;
 }
-.container{
+.about-us{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .subscribe-text{
+    margin-left: 0px;
+    margin-right: 30px;
     margin: 0px;
 }
 .text-top{

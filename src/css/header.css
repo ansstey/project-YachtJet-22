@@ -65,8 +65,7 @@
   padding-bottom: 12px;
 }
 .menu-icon {
-  stroke-width: 2.5px;
-  stroke: #1b414b;
+  fill: #1b414b;
 }
 .menu-open-button {
   background-color: transparent;

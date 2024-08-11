@@ -1,8 +1,8 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <symbol id="icon-icon-close" viewBox="0 0 32 32">
-      <path d="M32 3.721L28.279 0 16 12.279 3.721 0 0 3.721 12.279 16 0 28.279 3.721 32 16 19.721 28.279 32 32 28.279 19.721 16 32 3.721z"/>
-    </symbol>
+      <path d="M22 7.86056L20.1394 6L14 12.1394L7.86056 6L6 7.86056L12.1394 14L6 20.1394L7.86056 22L14 15.8606L20.1394 22L22 20.1394L15.8606 14L22 7.86056Z" fill="#055545"/>
+</symbol>
     <symbol id="icon-open-menu" viewBox="0 0 32 32">
       <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.8571" stroke="black" d="M4 20h24M4 12h24"></path>
     </symbol>

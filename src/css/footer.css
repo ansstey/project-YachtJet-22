@@ -27,7 +27,6 @@
 .footer-menu-list {
   display: flex;
   gap: 4px;
-  flex-wrap: wrap;
 }
 
 .footer-menu-item {

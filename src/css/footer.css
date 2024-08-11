@@ -5,35 +5,32 @@
 .footer-container {
   border-radius: 24px 24px 0 0;
   background-color: #1b414b;
-  padding: 40px 0 20px;
+  padding: 40px 30px 20px;
 }
 
 .footer-menu {
   display: flex;
-  gap: 37px;
   justify-content: center;
-  align-items: flex-start;
-  margin: 0 auto;
   margin-bottom: 80px;
 }
 
 .footer-logo {
-  display: block;
+  display: inline-block;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: -0.03em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: #fbfbfb;
+  margin-right: 37px;
 }
 
 .footer-menu-list {
   display: flex;
   gap: 4px;
+  flex-wrap: wrap;
 }
 
 .footer-menu-item {
+  width: calc((100% - 8px) / 3);
   border-radius: 8px;
   width: 66px;
   height: 40px;
@@ -107,7 +104,7 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
-  width: 85%;
+  width: 98%;
 }
 
 .footer-aside {
@@ -138,11 +135,16 @@
 
   .footer-logo {
     font-size: 20px;
+    margin-right: 110px;
   }
 
   .footer-menu {
     margin: 0;
-    gap: 110px;
+    margin-right: 110px;
+  }
+
+  .footer-menu-list {
+    flex-wrap: nowrap;
   }
 
   .footer-menu-item {
@@ -157,7 +159,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 91px;
     margin-bottom: 96px;
   }
 
@@ -190,12 +191,12 @@
     padding: 50px 75px 20px;
   }
 
-  .footer-menu {
-    gap: 330px;
+  .footer-logo {
+    margin-right: 326px;
   }
 
-  .footer-inner {
-    gap: 311px;
+  .footer-menu {
+    margin-right: 330px;
   }
 
   .footer-content-box {

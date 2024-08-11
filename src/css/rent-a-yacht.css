@@ -7,18 +7,20 @@ input{
 }
 
 .rent-form{
-	margin-top: 30px;
-	height: auto;
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
 }
 
 
 
 .container-rent-content{
-	display: flex;
+	
 	flex-direction: column;
-	padding-right: 20px;
-	align-items: flex-start;
-	margin-top: 80px;
+	
+	
+	
 }
 
 
@@ -28,7 +30,7 @@ input{
 	padding-right: 20px;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	
 }
 
 
@@ -110,7 +112,7 @@ textarea::placeholder{
 	line-height: 117%;
 	color: rgba(251, 251, 251, 0.2);
 	display: block;
-	margin-bottom: 18px;
+	
 }
 
 .rent-textarea{
@@ -126,10 +128,12 @@ textarea::placeholder{
 	border-radius: 24px;
 	width: 100%;
 	height: auto;
-	margin-top: 80px;
+	
 }
 
 .button-rent{
+	padding-top: 40px;
+	padding-bottom: 80px;
 	min-width: 335px;
 }
 
@@ -149,6 +153,7 @@ textarea::placeholder{
 		display: flex;
 		flex-direction: column;
 		min-width: 473px;
+		margin-top: 50px;
 	}
 
 	.container-rent-content{
@@ -181,10 +186,21 @@ textarea::placeholder{
 	}
 
 	.button-rent{
+		padding-top: 50px;
+	padding-bottom: 100px;
 		display: flex;
 		min-width: 473px;
 		align-items: flex-start;
+		
 
+	}
+	.send-btn{
+		padding: 18px 75px;
+		font-weight: 500;
+        font-size: 18px;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
 	}
 
 }
@@ -193,30 +209,40 @@ textarea::placeholder{
 
 	.rent-section{
 		display: flex;
-		flex-direction: row-reverse;
-		flex-wrap: nowrap;
-		align-items: flex-end;
-		min-width: 1180px;
-		height: auto;
+		flex-direction: column;
+   
+  align-items: center; 
 	}
+	
 
 
 	.images-about{
-		min-width: 658px;
-		display: flex;
-		justify-content: flex-end;
+		order: 1;
+		flex-basis: 100%;
+		width: 658px;
+		
+		
+		
+		margin-left: 0;
+		margin-right: 50px;
 	}
 
 	.container-rent-content{
-		margin-top: 150px;
-		min-width: 472px;
+		order: 2; /* Розміщуємо A другим, праворуч від C */
 		display: flex;
+		flex-direction: column;
+	
+		min-width: 472px;
+		
 	}
 
 	.button-rent{
+		order: 3; /* Розміщуємо B третім, під A */
+  
 		display: flex;
-		min-width: 473px;
+		min-width: 472px;
 		height: 536px;
+		padding-bottom: 0;
 
 
 	}

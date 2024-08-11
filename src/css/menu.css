@@ -158,6 +158,11 @@ h6 {
   border: transparent;
   background-color: transparent;
 }
+
+.btn-close :hover {
+  background-color: rgb(112, 112, 221);
+  border-radius: 25%;
+}
 /* .instogram {
   width: 24px;
   height: 24px;

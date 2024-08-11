@@ -1,8 +1,4 @@
 /* -----REVIEWS---------*/
-.reviews {
-  padding: 0px 20px 80px 20px;
-}
-
 .reviews-container {
   display: flex;
   flex-direction: column;
@@ -84,10 +80,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .reviews {
-    padding: 150px, 32px;
-  }
-
   .reviews-title {
     font-size: 48px;
     max-width: 704px;

@@ -1,7 +1,7 @@
 /* -----REVIEWS---------*/
-.reviews {
+/* .reviews {
   padding: 0px 20px 80px 20px;
-}
+} */
 
 .reviews-container {
   display: flex;
@@ -84,9 +84,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .reviews {
+  /* .reviews {
     padding: 150px, 32px;
-  }
+  } */
 
   .reviews-title {
     font-size: 48px;

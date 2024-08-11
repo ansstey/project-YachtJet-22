@@ -2,7 +2,7 @@
 
 .hero {
   padding: 260px 0 302px 0;
-  max-width: 375px;
+  max-width: 100%;
 
   background-image: linear-gradient(
       360deg,
@@ -10,7 +10,7 @@
       rgba(17, 19, 31, 0.39) 75.3%,
       rgba(17, 19, 31, 0) 98.27%
     ),
-    url(/images/hero-img-mob-1x.jpg);
+    url(/img/hero/hero-img-mob-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -25,7 +25,7 @@
         rgba(17, 19, 31, 0.39) 75.3%,
         rgba(17, 19, 31, 0) 98.27%
       ),
-      url(/images/hero-img-mob-2x.jpg);
+      url(/img/hero/hero-img-mob-2x.jpg);
   }
 }
 
@@ -59,7 +59,6 @@
 
 .hero-btn {
   display: block;
-  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -91,14 +90,14 @@
 @media screen and (min-width: 768px) {
   .hero {
     padding: 280px 0 282px 0;
-    max-width: 768px;
+    /* max-width: 768px; */
     background-image: linear-gradient(
         360deg,
         rgba(17, 19, 31, 1) 15.05%,
         rgba(17, 19, 31, 0.39) 75.3%,
         rgba(17, 19, 31, 0) 98.27%
       ),
-      url(/images/hero-img-tab-1x.jpg);
+      url(/img/hero/hero-img-tab-1x.jpg);
   }
 
   @media (min-resolution: 192dpi) {
@@ -109,7 +108,7 @@
           rgba(17, 19, 31, 0.39) 75.3%,
           rgba(17, 19, 31, 0) 98.27%
         ),
-        url(/images/hero-img-tab-2x.jpg);
+        url(/img/hero/hero-img-tab-2x.jpg);
     }
   }
 
@@ -145,14 +144,14 @@
 @media screen and (min-width: 1280px) {
   .hero {
     padding: 235px 0 215px 0;
-    max-width: 1280px;
+    /* max-width: 1280px; */
     background-image: linear-gradient(
         360deg,
         rgba(17, 19, 31, 1) 15.05%,
         rgba(17, 19, 31, 0.39) 75.3%,
         rgba(17, 19, 31, 0) 98.27%
       ),
-      url(/images/hero-img-desk-1x.jpg);
+      url(/img/hero/hero-img-desk-1x.jpg);
   }
 
   @media (min-resolution: 192dpi) {
@@ -163,7 +162,7 @@
           rgba(17, 19, 31, 0.39) 75.3%,
           rgba(17, 19, 31, 0) 98.27%
         ),
-        url(/images/hero-img-desk-2x.jpg);
+        url(/img/hero/hero-img-desk-2x.jpg);
     }
   }
 

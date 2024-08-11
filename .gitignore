@@ -1,3 +1,5 @@
+pr.txt
+
 # Logs
 logs
 *.log
@@ -22,3 +24,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+#pull request  list
+pullrequests-list.txt

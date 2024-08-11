@@ -6,12 +6,14 @@
   border-radius: 24px 24px 0 0;
   background-color: #1b414b;
   padding: 40px 30px 20px;
+  max-width: 355px;
 }
 
 .footer-menu {
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
+  gap: 37px;
 }
 
 .footer-logo {
@@ -20,7 +22,6 @@
   font-size: 14px;
   letter-spacing: -0.03em;
   color: #fbfbfb;
-  margin-right: 37px;
 }
 
 .footer-menu-list {
@@ -131,16 +132,16 @@
 
   .footer-container {
     padding: 50px 48px 20px;
+    max-width: 736px;
   }
 
   .footer-logo {
     font-size: 20px;
-    margin-right: 110px;
   }
 
   .footer-menu {
     margin: 0;
-    margin-right: 110px;
+    gap: 110px;
   }
 
   .footer-menu-list {
@@ -160,6 +161,7 @@
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 96px;
+    gap: 91px;
   }
 
   .footer-content-box {
@@ -189,14 +191,15 @@
 
   .footer-container {
     padding: 50px 75px 20px;
-  }
-
-  .footer-logo {
-    margin-right: 326px;
+    max-width: 1230px;
   }
 
   .footer-menu {
-    margin-right: 330px;
+    gap: 330px;
+  }
+
+  .footer-inner {
+    gap: 311px;
   }
 
   .footer-content-box {

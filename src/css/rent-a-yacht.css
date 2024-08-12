@@ -2,44 +2,64 @@
 
 input{
   background-color: transparent;
+	margin-bottom: 18px;
+	resize: none;
+}
+
+textarea{
+	resize: none;
 }
 
 .rent-form{
 	margin-top: 40px;
 	display: flex;
 	flex-direction: column;
-	gap: 18px;
+	align-items: center;
 }
 
 
 
 .container-rent-content{
-	
 	flex-direction: column;
-	
-	
-	
+	display: flex;
+	align-items: center;
+	margin-bottom: 80px;
 }
+
 
 
 .full-content-rent{
 	display: flex;
 	flex-direction: column;
-	
+	justify-content: center;
+}
+
+.rent-section{
+	min-width: 320px;
+	max-width: 335px;
+	display: flex;
+	flex-direction: column;
+}
+
+.rent-input{
+	color: #fbfbfb;
 }
 
 
+.rent-textarea{
+	color: #fbfbfb;
+}
 
 .rent-input:focus,
-input:hover{
+.rent-input:hover{
 	border: 1px solid rgba(251, 251, 251, 0.5);
 	background-color: transparent;
 	color: #fbfbfb;
 	padding-left: 18px;
 }
 
-textarea:focus,
-textarea:hover{
+.rent-textarea:focus,
+.rent-textarea:hover{
 	border: 1px solid rgba(251, 251, 251, 0.5);
 	background-color: transparent;
 	color: #fbfbfb;
@@ -74,6 +94,8 @@ textarea::placeholder{
 
 
 .container-rent{
+	min-width: 320px;
+	max-width: 335px;
  display: flex;
 
 }
@@ -91,7 +113,8 @@ textarea::placeholder{
 }
 
 .rent-input{
-	min-width: 335px;
+	min-width: 320px;
+	max-width: 335px;
 	height: 42px;
 	border: 1px solid rgba(251, 251, 251, 0.2);
 	border-radius: 12px;
@@ -111,7 +134,8 @@ textarea::placeholder{
 }
 
 .rent-textarea{
-	width: 100%;
+	min-width: 320px;
+	max-width: 335px;
 	height: 108px;
 	border: 1px solid rgba(251, 251, 251, 0.2);
 	border-radius: 12px;
@@ -128,17 +152,16 @@ textarea::placeholder{
 
 .button-rent{
 	padding-top: 40px;
-	padding-bottom: 80px;
-	min-width: 335px;
+	min-width: 320px;
+	max-width: 335px;
 }
 
 
 
 @media screen and (min-width: 768px) {
 
-
 	.rent-section{
-		max-width: 704px; 
+		min-width: 704px; 
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -147,24 +170,30 @@ textarea::placeholder{
 		display: flex;
 		flex-direction: column;
 		min-width: 473px;
-		margin-top: 50px;
+		margin-top: 0;
+		padding-top: 0;
 	}
 
 	.container-rent-content{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		margin-bottom: 100px;
 	}
 
 	.container-rent{
 		display: flex;
 		min-width: 768px;
-		
+		margin-bottom: 50px;
 	}
 
 	.rent-input{
-		width: 100%;
+		min-width: 473px;
 		height: 54px;
+	}
+
+	.rent-textarea{
+		min-width: 473px;
 	}
 
 	.title-rent{
@@ -179,7 +208,6 @@ textarea::placeholder{
 
 	.button-rent{
 		padding-top: 50px;
-	padding-bottom: 100px;
 		display: flex;
 		min-width: 473px;
 		align-items: flex-start;
@@ -199,39 +227,44 @@ textarea::placeholder{
 
 @media screen and (min-width: 1280px) {
 
-	.container-rent{
-		min-width: auto;
+	.rent-a-yacht{
+		display: flex;
 	}
+
 	.title-rent{
+		max-width: 472px;
 		margin: 0;
+	}
+
+	.container-rent{
+		min-width: 472px;
 	}
 
 	.full-content-rent{
 		display: flex;
 		flex-direction: row-reverse;
-		max-width: 100%;
-		
+		width: 100%;
 	}
 
 	.rent-section{ 
+		min-width: 472px;
 		display: flex;
 	  flex-direction: column;
-		margin-top: 0;
 	}
 
 .images-rent{
+	display: flex;
 	min-width: 658px;
 	height: 536px;
-	margin: 0;
 }
 
 
 .container-rent-content{
-	max-width: 472px;
-	height: 536px;
-	margin-left: 50px;
 	display: flex;
-	align-items: flex-start;
+	min-width: 472px;
+	align-items: center;
+	margin-left: 50px;
+	margin-bottom: 0;
 }
 
 .button-rent{

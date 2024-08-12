@@ -36,7 +36,7 @@ img{
 }
 .subscribe-title{
     width: 270px;
-    font-family: "inter", sans-serif;
+     
     font-weight: 500;
     font-size: 28px;
     line-height: 1.0;
@@ -51,7 +51,7 @@ img{
     gap: 20px;
 }
 .subscribe-text-top{
-    width: 270px;
+     
     font-weight: 400;
     font-size: 18px;
     line-height: 1.0;
@@ -59,7 +59,7 @@ img{
     color: #1b414b;
 }
 .subscribe-text-bottom{
-    width: 270px;
+    font-family: "inter", sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;

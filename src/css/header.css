@@ -72,6 +72,14 @@
   padding-top: 7px;
   padding-bottom: 7px;
 }
+
+.menu-close-button {
+  display: none;
+}
+
+.menu-close-button.is-visible {
+  display: block !important;
+}
 @media screen and (min-width: 768px) {
   .header-social-link {
     display: block;

@@ -139,7 +139,6 @@ textarea::placeholder{
 
 	.rent-section{
 		max-width: 704px; 
-		margin-top: 150px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -176,8 +175,6 @@ textarea::placeholder{
 
 	.images-rent{
 		width: 100%;
-		margin-left: 32px;
-		margin-right: 32px;
 	}
 
 	.button-rent{

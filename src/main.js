@@ -23,8 +23,8 @@
       openMenuBtn.classList.add('js-close-menu');
       openMenuBtn.querySelector('use').setAttribute('href', '/img/icons.svg#icon-icon-close');
       openMenuBtn.setAttribute('aria-expanded', 'true');
-      openMenuBtn.querySelector('svg').setAttribute('width', '16');
-      openMenuBtn.querySelector('svg').setAttribute('height', '16');
+      openMenuBtn.querySelector('svg').setAttribute('width', '28');
+      openMenuBtn.querySelector('svg').setAttribute('height', '28');
     }
 
     const scrollLockMethod = !isMenuOpen

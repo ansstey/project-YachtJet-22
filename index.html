@@ -21,7 +21,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/project-YachtJet-22/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-YachtJet-22/assets/index-32c02d93.css">
+    <link rel="stylesheet" href="/project-YachtJet-22/assets/index-8b24e2a7.css">
   </head>
   <body>
     <header class="header">
@@ -414,67 +414,100 @@
 </section>
 
       <!--RENT A YACHT-->
-<section class="rent-a-yacht container">
-<form class="rent-section" id="rent">
-	
-	<div class="container-rent-content">
-	<div class="container-rent">
-		<h3 class="title-rent">
-			Rent a yacht now
-		</h3>
-	</div>
-      <div class="rent-form">
-	      <div class="rent-field">
-		      <label for="user-name" class="rent-label"></label>
-      <div class="rent-div">
-		    <input type="text" name="user-name" class="rent-input" required id="user-name" placeholder="Full Name"/>
+<section class="section">
+  <div class="container rent-a-yacht">
+    <form class="rent-section" id="rent">
+      <div class="container-rent-content">
+        <div class="container-rent">
+          <h3 class="title-rent">Rent a yacht now</h3>
+        </div>
+        <div class="rent-form">
+          <div class="rent-field">
+            <label for="user-name" class="rent-label"></label>
+            <div class="rent-div">
+              <input
+                type="text"
+                name="user-name"
+                class="rent-input"
+                required
+                id="user-name"
+                placeholder="Full Name"
+              />
+            </div>
+          </div>
+
+          <div class="rent-field">
+            <label for="user-email" class="rent-label"></label>
+            <div class="rent-div">
+              <input
+                type="email"
+                name="user-email"
+                class="rent-input"
+                required
+                id="user-email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                placeholder="Email"
+              />
+            </div>
+          </div>
+
+          <div class="rent-field">
+            <label for="phone" class="rent-label"></label>
+            <div class="rent-div">
+              <input
+                type="tel"
+                name="phone"
+                class="rent-input"
+                id="phone"
+                required
+                pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+                title="+38-067-123-45-67"
+                placeholder="Phone number"
+              />
+            </div>
+          </div>
+
+          <div class="comments-fields">
+            <label for="user-comment" class="rent-label"></label>
+            <textarea
+              type="submit"
+              name="user-comment"
+              id="user-comment"
+              class="rent-textarea"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+        </div>
       </div>
+      <div class="button-rent">
+        <button type="submit" class="send-btn">Send</button>
       </div>
-
-
-       <div class="rent-field">
-	        <label for="user-email" class="rent-label"></label>
-	     <div class="rent-div">
-	      <input type="email" name="user-email" class="rent-input" required id="user-email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Email" /> 
-	    </div>
-			 </div>
-
-
-       <div class="rent-field">
-	      	<label for="phone" class="rent-label"></label>
-       <div class="rent-div">
-		    <input type="tel" name="phone" class="rent-input" id="phone"
-				 required pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$" title="+38-067-123-45-67" 
-				 placeholder="Phone number" />
-       </div>
-       </div>
-
-       <div class="comments-fields">
-	        <label for="user-comment" class="rent-label"></label>
-	     <textarea type="submit" name="user-comment" id="user-comment" class="rent-textarea" placeholder="Comment"></textarea>
-       </div>
-       </div>
-	</div>
-<div class="button-rent">
-<button type="submit" class="send-btn">Send</button>
-</div>
-	
-
-
-<div class="images-about"> 
-  <picture class="picture-about"> 
-   <source srcset="/project-YachtJet-22/assets/rent-desk-1x-b28b94f5.jpg 1x, /project-YachtJet-22/assets/rent-desk-2x-b11a1edd.jpg 2x"
-	  media="(min-width:1280px)" > 
-   <source srcset="/project-YachtJet-22/assets/rent-tab-1x-2c6f3929.jpg 1x, /project-YachtJet-22/assets/rent-tab-2x-65573eaf.jpg 2x" 
-	 media="(min-width:768px)" > 
-   <source srcset="/project-YachtJet-22/assets/rent-mob-1x-44a15256.jpg 1x, /project-YachtJet-22/assets/rent-mob-2x-ae229ed2.jpg 2x"
-	  media="(max-width:767px)" > 
-   <img class="img-rent" src="/project-YachtJet-22/assets/rent-desk-1x-b28b94f5.jpg" alt="Rent a yacht" width="335" > 
-  </picture> 
+    </form>
+    <div class="images-about">
+      <picture class="picture-about">
+        <source
+          srcset="/project-YachtJet-22/assets/rent-desk-1x-b28b94f5.jpg 1x, /project-YachtJet-22/assets/rent-desk-2x-b11a1edd.jpg 2x"
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="/project-YachtJet-22/assets/rent-tab-1x-2c6f3929.jpg 1x, /project-YachtJet-22/assets/rent-tab-2x-65573eaf.jpg 2x"
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="/project-YachtJet-22/assets/rent-mob-1x-44a15256.jpg 1x, /project-YachtJet-22/assets/rent-mob-2x-ae229ed2.jpg 2x"
+          media="(max-width:767px)"
+        />
+        <img
+          class="img-rent"
+          src="/project-YachtJet-22/assets/rent-desk-1x-b28b94f5.jpg"
+          alt="Rent a yacht"
+          width="335"
+        />
+      </picture>
+    </div>
   </div>
-  
-</form>
 </section>
+
       <section class="section reviews" id="reviews">
   <div class="container reviews-container">
     <h2 class="reviews-title">

@@ -167,7 +167,7 @@
   display: flex;
   gap: 8px;
 }
-h .icon-menu-ul-li:hover {
+.icon-menu-ul-li:hover {
   background: rgba(30, 97, 116, 0.5);
   border-radius: 25%;
 }
@@ -186,21 +186,3 @@ h .icon-menu-ul-li:hover {
   background-color: rgba(30, 97, 116, 0.5);
   border-radius: 25%;
 }
-/* .instogram {
-  width: 24px;
-  height: 24px;
-  background-image: url('../img/project/Vector-3.svg');
-  background-size: cover;
-} */
-/* .youtube {
-  width: 24px;
-  height: 24px;
-  background-image: url('../img/project/Vector-2.svg');
-  background-size: cover;
-} */
-/* .facebook {
-  width: 24px;
-  height: 24px;
-  background-image: url('../img/project/Vector.svg');
-  background-size: cover;
-} */

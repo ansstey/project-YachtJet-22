@@ -48,13 +48,10 @@ img{
 .subscribe-text{
     display: flex;
     flex-direction: column;
-    
-}
-.text-top{
-    margin-bottom: 20px;
-    width: 270px;
+    gap: 20px;
 }
 .subscribe-text-top{
+    width: 270px;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.0;
@@ -62,10 +59,8 @@ img{
     color: #1b414b;
     width: 270px;
 }
-.text-bottom{
-    width: 270px;
-}
 .subscribe-text-bottom{
+    width: 270px;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
@@ -100,16 +95,12 @@ img{
 .subscribe-text{
     margin-left: 32px;
 }
-.text-top{
-    width: 350px;
-}
 .subscribe-text-top{
+    width: 350px;
     font-size: 23px;
 }
-.text-bottom{
-    width: 365px;
-}
 .subscribe-text-bottom{
+    width: 365px;
     font-size: 13px;
     line-height: 1.15;
 }
@@ -140,10 +131,10 @@ img{
     margin-left: 0px;
     margin-right: 50px;
 }
-.text-top{
+.subscribe-text-top{
 width: 350px;
 }
-.text-bottom{
+.subscribe-text-bottom{
    width: 365px;
 }
 }

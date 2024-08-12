@@ -132,19 +132,21 @@ h6 {
   font-size: 9px;
   line-height: 130%;
   text-transform: uppercase;
-  display: flex;
-  text-align: center;
-  justify-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
   color: #fbfbfb;
   text-decoration: none;
 }
 .btn-ul-li {
   border-radius: 8px;
   border-color: transparent;
-  padding-top: 15px;
-  padding-bottom: 15px;
 
-  padding-left: 25px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 91px;
   height: 40px;
   background: rgba(27, 65, 75, 0.5);

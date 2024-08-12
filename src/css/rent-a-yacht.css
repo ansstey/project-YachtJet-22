@@ -177,7 +177,7 @@ textarea::placeholder{
 		margin-left: 148px;
 	}
 
-	.images-about{
+	.images-rent{
 		width: 100%;
 		margin-left: 32px;
 		margin-right: 32px;
@@ -205,46 +205,27 @@ textarea::placeholder{
 
 @media screen and (min-width: 1280px) {
 
+	.rent-a-yacht{
+		display: flex;
+	}
 	.rent-section{
+		max-width: 1180px; 
 		display: flex;
-		flex-direction: column;
-   
-  align-items: center; 
-	}
-	
-
-
-	.images-about{
-		order: 1;
-		flex-basis: 100%;
-		width: 658px;
-		
-		
-		
-		margin-left: 0;
-		margin-right: 50px;
+		flex-direction: row-reverse;
+		align-items: flex-start;
+		justify-content: space-between;
 	}
 
-	.container-rent-content{
-		order: 2; /* Розміщуємо A другим, праворуч від C */
-		display: flex;
-		flex-direction: column;
-	
-		min-width: 472px;
-		
-	}
-
-	.button-rent{
-		order: 3; /* Розміщуємо B третім, під A */
-  
-		display: flex;
-		min-width: 472px;
-		height: 536px;
-		padding-bottom: 0;
+.images-rent{
+	min-width: 658px;
+	height: 536px;
+}
 
 
-	}
-
+.container-rent-content{
+	max-width: 472px;
+	margin-left: 50px;
+}
 
 
 }

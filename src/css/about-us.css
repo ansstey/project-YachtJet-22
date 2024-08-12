@@ -51,22 +51,18 @@ img{
     gap: 20px;
 }
 .subscribe-text-top{
-    width: 270px;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.0;
     letter-spacing: -0.02em;
     color: #1b414b;
-    width: 270px;
 }
 .subscribe-text-bottom{
-    width: 270px;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.02em;
     color: #040306;
-    width: 270px;
     opacity: 0.4;
 }
 @media  screen and (min-width:768px){

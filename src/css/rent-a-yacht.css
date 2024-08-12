@@ -219,6 +219,7 @@ textarea::placeholder{
 .images-rent{
 	min-width: 658px;
 	height: 536px;
+	margin: 0;
 }
 
 

@@ -1,0 +1,151 @@
+.subscribe{
+    margin: 0 auto;
+    margin-top: -59px;
+    min-width: 320px;
+    background-color: #0e1823;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+}
+.about-us{
+    width: 100%;
+    padding: 40px 0px 0px 0px;
+    background-color:#fbfbfb;
+    color:#FFF;
+    border-radius: 24px 24px 0px 0px;
+}
+.picture-about{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 24px 24px 0px 0px;
+}
+img{ 
+    display: block;
+    max-width: 100%;
+}
+.img-about{
+    width: 100%;
+    border-radius: 24px 24px 0px 0px;
+    height: 395px;
+}
+.about-us-content{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+.subscribe-title{
+    width: 270px;
+     
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.subscribe-text{
+    display: flex;
+    flex-direction: column;
+    
+}
+.text-top{
+    margin-bottom: 20px;
+    width: 270px;
+}
+.subscribe-text-top{
+     
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    width: 270px;
+}
+.text-bottom{
+    width: 270px;
+}
+.subscribe-text-bottom{
+     
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #040306;
+    width: 270px;
+    opacity: 0.4;
+}
+@media  screen and (min-width:768px){
+    .subscribe{
+        margin-top: -67px;
+        padding-top: 0px;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+    .subscribe-title{
+        width: 536px;
+        font-size: 48px;
+        margin-bottom: 50px;
+        font-size: 48px;
+        margin-left: 32px;
+    }
+    .about-us{
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    .about-us-content{
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-bottom: 50px;
+    }
+.subscribe-text{
+    margin-left: 32px;
+}
+.text-top{
+    width: 350px;
+}
+.subscribe-text-top{
+    font-size: 23px;
+}
+.text-bottom{
+    width: 365px;
+}
+.subscribe-text-bottom{
+    font-size: 13px;
+    line-height: 1.15;
+}
+.img-about{
+    height: 470px;
+}
+}
+@media  screen and (min-width:1280px){
+.subscribe{
+    margin-top: -35px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+}
+.subscribe-title{
+    margin: 0px;
+    margin-left: 50px;
+   width: 537px;
+}
+.about-us-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.subscribe-text{
+    margin-left: 0px;
+    margin-right: 50px;
+}
+.text-top{
+width: 350px;
+}
+.text-bottom{
+   width: 365px;
+}
+}

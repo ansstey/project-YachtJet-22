@@ -167,7 +167,7 @@
   display: flex;
   gap: 8px;
 }
-.icon-menu-ul-li:hover {
+h .icon-menu-ul-li:hover {
   background: rgba(30, 97, 116, 0.5);
   border-radius: 25%;
 }

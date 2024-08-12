@@ -45,15 +45,16 @@
   height: 24px;
 }
 
-.header-icon {
+.header-link svg {
   fill: #1b414b;
 }
 
-.header-icon:hover,
-.header-icon:focus {
+.header-link:focus svg,
+.header-link:hover svg {
   fill: #062730;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .header-logo {
   font-weight: 500;
   font-size: 14px;

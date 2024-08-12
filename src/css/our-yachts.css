@@ -80,15 +80,22 @@
   display: flex;
   justify-content: flex-start; 
   align-items: center;
+  
 }
-.yacht-char, .yacht-name {
-  flex-basis: 60%; 
+.yacht-name{
   text-align: left;
+  margin-right:125px;
+}
+.yacht-char{
+ /* flex-basis: 60%; */
+  text-align: left;
+  width: 62px;
+  margin-right: 114px;
   
 }
 
 .yacht-value, .yacht-class {
-  flex-basis: 40%; 
+ /* flex-basis: 40%;*/ 
   text-align: left; 
 }
 
@@ -161,6 +168,15 @@
     font-size: 16px;
     line-height: 1.2;
   }
+  .yacht-name{
+    margin-right: 0;
+
+  }
+  .yacht-char{
+    width: 72px;
+  margin-right: 102px;
+
+  }
 
   .yacht-link {
     
@@ -185,6 +201,11 @@
 
   .yachts-list {
     gap: 25px;
+  }
+  .yacht-char{
+    width: 72px;
+  margin-right: 142px;
+
   }
 
   .yacht-item {

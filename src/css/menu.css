@@ -138,10 +138,10 @@
   cursor: pointer;
 }
 .btn-ul-li:hover {
-  background: rgba(30, 97, 116, 0.5);
+  background: #1b414b;
 }
 .btn-ul-li:focus {
-  background: rgba(30, 97, 116, 0.5);
+  background: #1b414b;
 }
 
 .btn-name {
@@ -168,11 +168,11 @@
   gap: 8px;
 }
 .icon-menu-ul-li:hover {
-  background: rgba(30, 97, 116, 0.5);
+  background: #1b414b;
   border-radius: 25%;
 }
 .icon-menu-ul-li:focus {
-  background: rgba(30, 97, 116, 0.5);
+  background: #1b414b;
 }
 .icon-menu-ul-li-a {
   cursor: pointer;
@@ -183,6 +183,7 @@
 }
 
 .btn-close :hover {
-  background-color: rgba(30, 97, 116, 0.5);
+  background-color: #1b414b;
+
   border-radius: 25%;
 }

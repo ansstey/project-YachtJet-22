@@ -80,6 +80,14 @@
 .menu-close-button.is-visible {
   display: block !important;
 }
+.menu-open-button-ghost {
+  display: none; 
+}
+
+.menu-open-button-ghost.is-visible {
+  display: block !important; 
+}
+
 @media screen and (min-width: 768px) {
   .header-social-link {
     display: block;

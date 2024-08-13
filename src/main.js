@@ -1,7 +1,8 @@
 (() => {
   const mobileMenu = document.querySelector('.js-menu-container');
-  const openMenuBtn = document.querySelector('.js-open-menu');
-  const closeMenuBtn = document.querySelector('.js-close-menu');
+  const openMenuBtn = document.querySelector('#js-open-menu');
+  const closeMenuBtn = document.querySelector('#js-close-menu');
+  const openMenuBtnGhost = document.querySelector('#js-open-menu-ghost');
 
   const toggleMenu = () => {
     const anchors = mobileMenu.querySelectorAll('a[href*="#"]');
@@ -18,21 +19,20 @@
       openMenuBtn.querySelector('svg').setAttribute('width', '24');
       openMenuBtn.querySelector('svg').setAttribute('height', '24');
       closeMenuBtn.classList.remove('is-visible');
+      openMenuBtnGhost.classList.add('is-visible');
     } else {
-      
       openMenuBtn.classList.remove('js-open-menu');
       openMenuBtn.classList.add('js-close-menu');
       openMenuBtn.querySelector('use').setAttribute('href', '/img/icons.svg#icon-icon-close');
       openMenuBtn.querySelector('svg').setAttribute('width', '28');
       openMenuBtn.querySelector('svg').setAttribute('height', '28');
       closeMenuBtn.classList.add('is-visible');
+      openMenuBtnGhost.classList.remove('is-visible');
     }
 
-    
     const scrollLockMethod = !isMenuOpen ? 'disableBodyScroll' : 'enableBodyScroll';
     bodyScrollLock[scrollLockMethod](document.body);
 
-   
     if (anchors.length === 0) return;
     if (!isMenuOpen) {
       anchors.forEach(anchor => {
@@ -54,11 +54,13 @@
     openMenuBtn.classList.add('js-open-menu');
     openMenuBtn.querySelector('use').setAttribute('href', '/img/icons.svg#icon-open-menu');
     closeMenuBtn.classList.remove('is-visible');
+    openMenuBtnGhost.classList.add('is-visible');
     bodyScrollLock.enableBodyScroll(document.body);
   };
 
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
+  openMenuBtnGhost.addEventListener('click', toggleMenu);
 
   window.matchMedia('(min-width: 768px)').addEventListener('change', matchMedia);
 })();

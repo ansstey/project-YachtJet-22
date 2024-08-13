@@ -35,7 +35,7 @@ textarea {
   flex-direction: column;
 }
 
-.rent-section:nth-child(-n+3) {
+.rent-section:nth-child(-n + 3) {
   gap: 9px;
 }
 
@@ -138,10 +138,10 @@ textarea::placeholder {
   }
 
   .rent-section {
-    min-width: 704px; 
+    min-width: 704px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .rent-form {
@@ -150,6 +150,7 @@ textarea::placeholder {
     min-width: 473px;
     margin-top: 0;
     padding-top: 0;
+    gap: 18px;
   }
 
   .container-rent-content {
@@ -164,6 +165,7 @@ textarea::placeholder {
     display: flex;
     min-width: 473px;
     margin-left: 0px;
+    margin-bottom: 50px;
   }
 
   .rent-input {
@@ -197,11 +199,12 @@ textarea::placeholder {
 }
 
 @media screen and (min-width: 1280px) {
-  .rent-a-yacht {
+  .full-content-rent {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row-reverse;
+    gap: 0px;
   }
 
   .rent-section {
@@ -209,7 +212,7 @@ textarea::placeholder {
   }
 
   .images-about {
-    width: 100%;
+    width: 658px;
     height: 536px;
     margin-top: 0px;
     margin-left: 50px;
@@ -217,13 +220,16 @@ textarea::placeholder {
   }
 
   .container-rent-content {
-    display: flex;
+    display: block;
     max-width: 472px;
     box-sizing: border-box;
   }
 
+  .rent-input {
+    width: 100%;
+  }
+
   .button-rent {
-    display: flex;
     min-width: 472px;
     padding-bottom: 0;
   }

@@ -50,8 +50,7 @@
   line-height: 1.18;
   letter-spacing: -0.045em;
   text-transform: uppercase;
-  text-align: left;
-  margin-right: 125px;
+  
 }
 
 .yacht-class {
@@ -80,14 +79,13 @@
 
 .yacht-row {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 
 .yacht-char {
   text-align: left;
   width: 62px;
-  margin-right: 114px;
 }
 
 .yacht-value, .yacht-class {
@@ -113,6 +111,7 @@
   font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  width: 90px;
 }
 
 .yacht-link {
@@ -160,10 +159,9 @@
     margin-right: 0;
   }
 
-  .yacht-char {
-    width: 72px;
-    margin-right: 102px;
-  }
+  /*.yacht-char {
+    width: 86px;
+  }*/
 
   .yacht-link {
     font-size: 18px;
@@ -190,7 +188,6 @@
 
   .yacht-char {
     width: 72px;
-    margin-right: 142px;
   }
 
   .yacht-item {

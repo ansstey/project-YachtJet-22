@@ -21,7 +21,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/project-YachtJet-22/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-YachtJet-22/assets/index-2708ff7a.css">
+    <link rel="stylesheet" href="/project-YachtJet-22/assets/index-2db6c6e8.css">
   </head>
   <body>
     <header class="header">
@@ -405,14 +405,11 @@
   </div>
 </section>
 
-      <!--RENT A YACHT-->
-<section class="section">
-  <div class="container rent-a-yacht">
-    <form class="rent-section" id="rent">
-      <div class="container-rent-content">
-        <div class="container-rent">
-          <h3 class="title-rent">Rent a yacht now</h3>
-        </div>
+      <section class="rent-a-yacht section">
+  <div class="full-content-rent container">
+    <div class="container-rent-content">
+      <h3 class="title-rent">Rent a yacht now</h3>
+      <form class="rent-section" id="rent">
         <div class="rent-form">
           <div class="rent-field">
             <label for="user-name" class="rent-label"></label>
@@ -462,7 +459,6 @@
           <div class="comments-fields">
             <label for="user-comment" class="rent-label"></label>
             <textarea
-              type="submit"
               name="user-comment"
               id="user-comment"
               class="rent-textarea"
@@ -470,32 +466,32 @@
             ></textarea>
           </div>
         </div>
+        <div class="button-rent">
+          <button type="submit" class="send-btn">Send</button>
+        </div>
+      </form>
+      <div class="images-about">
+        <picture class="picture-rent">
+          <source
+            srcset="/project-YachtJet-22/assets/rent-desk-1x-b28b94f5.jpg 1x, /project-YachtJet-22/assets/rent-desk-2x-b11a1edd.jpg 2x"
+            media="(min-width:1280px)"
+          />
+          <source
+            srcset="/project-YachtJet-22/assets/rent-tab-1x-2c6f3929.jpg 1x, /project-YachtJet-22/assets/rent-tab-2x-65573eaf.jpg 2x"
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="/project-YachtJet-22/assets/rent-mob-1x-44a15256.jpg 1x, /project-YachtJet-22/assets/rent-mob-2x-ae229ed2.jpg 2x"
+            media="(max-width:767px)"
+          />
+          <img
+            class="img-rent"
+            src="/project-YachtJet-22/assets/rent-desk-1x-b28b94f5.jpg"
+            alt="Rent a yacht"
+            width="335"
+          />
+        </picture>
       </div>
-      <div class="button-rent">
-        <button type="submit" class="send-btn">Send</button>
-      </div>
-    </form>
-    <div class="images-about">
-      <picture class="picture-about">
-        <source
-          srcset="/project-YachtJet-22/assets/rent-desk-1x-b28b94f5.jpg 1x, /project-YachtJet-22/assets/rent-desk-2x-b11a1edd.jpg 2x"
-          media="(min-width:1280px)"
-        />
-        <source
-          srcset="/project-YachtJet-22/assets/rent-tab-1x-2c6f3929.jpg 1x, /project-YachtJet-22/assets/rent-tab-2x-65573eaf.jpg 2x"
-          media="(min-width:768px)"
-        />
-        <source
-          srcset="/project-YachtJet-22/assets/rent-mob-1x-44a15256.jpg 1x, /project-YachtJet-22/assets/rent-mob-2x-ae229ed2.jpg 2x"
-          media="(max-width:767px)"
-        />
-        <img
-          class="img-rent"
-          src="/project-YachtJet-22/assets/rent-desk-1x-b28b94f5.jpg"
-          alt="Rent a yacht"
-          width="335"
-        />
-      </picture>
     </div>
   </div>
 </section>

@@ -1,269 +1,230 @@
-
-
-input{
+input {
   background-color: transparent;
-	resize: none;
+  resize: none;
 }
 
-textarea{
-	resize: none;
+textarea {
+  resize: none;
 }
 
-.rent-form{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.rent-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
 }
 
-
-
-.container-rent-content{
-	flex-direction: column;
-	display: flex;
-	align-items: center;
-	gap: 40px;
+.container-rent-content {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
-
-
-.full-content-rent{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	gap: 80px;
+.full-content-rent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 80px;
 }
 
-.rent-section{
-	min-width: 320px;
-	max-width: 335px;
-	display: flex;
-	flex-direction: column;
+.rent-section {
+  min-width: 320px;
+  max-width: 335px;
+  display: flex;
+  flex-direction: column;
 }
 
 .rent-section:nth-child(-n+3) {
-	gap: 9px;
+  gap: 9px;
 }
 
-.rent-input{
-	color: #fbfbfb;
-}
-
-
-.rent-textarea{
-	color: #fbfbfb;
-}
-
-.rent-input:focus,
-.rent-input:hover{
-	border: 1px solid rgba(251, 251, 251, 0.5);
-	background-color: transparent;
-	color: #fbfbfb;
-	padding-left: 18px;
-}
-
-.rent-textarea:focus,
-.rent-textarea:hover{
-	border: 1px solid rgba(251, 251, 251, 0.5);
-	background-color: transparent;
-	color: #fbfbfb;
-	padding-left: 18px;
-	padding-top: 14px;
-}
-
-
-
-.rent-input:focus::placeholder{
-	background-color: transparent;
-	color: transparent;
-	
-}
-.rent-textarea:focus::placeholder {
-	background-color: transparent;
-	color: transparent;
-}
-
-	
-	input::placeholder {
-	font-size: 12px;
-	font-weight: 400;
-}
-
-textarea::placeholder{
-	padding-top: 14px;
-	padding-left: 18px;
-	font-size: 12px;
-	font-weight: 400;
-}
-
-
-
-
-.title-rent{
-	font-weight: 500;
-	font-size: 28px;
-	line-height: 100%;
-	letter-spacing: -0.02em;
-	color: #fbfbfb;
-	min-width: 320px;
-	max-width: 335px;
-  display: flex;
-}
-
-.rent-input{
-	min-width: 320px;
-	max-width: 335px;
-	height: 42px;
-	border: 1px solid rgba(251, 251, 251, 0.2);
-	border-radius: 12px;
-	background-color: transparent;
-	outline: transparent;
-	transition: opacity 0.3s ease;
+.rent-input {
+  color: #fbfbfb;
+  min-width: 320px;
+  max-width: 335px;
+  height: 42px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  background-color: transparent;
+  outline: transparent;
+  transition: opacity 0.3s ease;
   padding-left: 18px;
 }
 
-.rent-label{
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 117%;
-	color: rgba(251, 251, 251, 0.2);
-	display: block;
-	
+.rent-textarea {
+  color: #fbfbfb;
+  min-width: 320px;
+  max-width: 335px;
+  height: 108px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  background-color: transparent;
 }
 
-.rent-textarea{
-	min-width: 320px;
-	max-width: 335px;
-	height: 108px;
-	border: 1px solid rgba(251, 251, 251, 0.2);
-	border-radius: 12px;
-	background-color: transparent;
+.rent-input:focus,
+.rent-input:hover {
+  border: 1px solid rgba(251, 251, 251, 0.5);
+  background-color: transparent;
+  color: #fbfbfb;
+  padding-left: 18px;
 }
 
+.rent-textarea:focus,
+.rent-textarea:hover {
+  border: 1px solid rgba(251, 251, 251, 0.5);
+  background-color: transparent;
+  color: #fbfbfb;
+  padding-left: 18px;
+  padding-top: 14px;
+}
+
+.rent-input:focus::placeholder {
+  background-color: transparent;
+  color: transparent;
+}
+
+.rent-textarea:focus::placeholder {
+  background-color: transparent;
+  color: transparent;
+}
+
+input::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+textarea::placeholder {
+  padding-top: 14px;
+  padding-left: 18px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.title-rent {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  min-width: 320px;
+  max-width: 335px;
+  display: flex;
+}
 
 .img-rent {
-	border-radius: 24px;
-	width: 100%;
-	height: auto;
-	
+  border-radius: 24px;
+  width: 100%;
+  height: auto;
 }
 
-.button-rent{
-	padding-top: 40px;
-	min-width: 320px;
-	max-width: 335px;
+.button-rent {
+  padding-top: 40px;
+  min-width: 320px;
+  max-width: 335px;
 }
 
-
+.rent-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  color: rgba(251, 251, 251, 0.2);
+  display: block;
+}
 
 @media screen and (min-width: 768px) {
-  .full-content-rent{
-	gap: 100px;
-	}
+  .full-content-rent {
+    gap: 100px;
+  }
 
+  .rent-section {
+    min-width: 704px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .rent-form {
+    display: flex;
+    flex-direction: column;
+    min-width: 473px;
+    margin-top: 0;
+    padding-top: 0;
+  }
 
-	.rent-section{
-		min-width: 704px; 
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	.rent-form{
-		display: flex;
-		flex-direction: column;
-		min-width: 473px;
-		margin-top: 0;
-		padding-top: 0;
-	}
+  .container-rent-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
 
-	.container-rent-content{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 50px;
-	}
+  .title-rent {
+    font-size: 48px;
+    display: flex;
+    min-width: 473px;
+    margin-left: 0px;
+  }
 
-	.title-rent{
-		font-size: 48px;
-		display: flex;
-		min-width: 473px;
-		margin-left: 0px;
-	}
+  .rent-input {
+    min-width: 473px;
+    height: 54px;
+  }
 
-	.rent-input{
-		min-width: 473px;
-		height: 54px;
-	}
+  .rent-textarea {
+    min-width: 473px;
+  }
 
-	.rent-textarea{
-		min-width: 473px;
-	}
+  .img-rent {
+    width: 100%;
+  }
 
-	.img-rent{
-		width: 100%;
-	}
+  .button-rent {
+    padding-top: 50px;
+    display: flex;
+    min-width: 473px;
+    align-items: flex-start;
+  }
 
-	.button-rent{
-		padding-top: 50px;
-		display: flex;
-		min-width: 473px;
-		align-items: flex-start;
-		
-
-	}
-	.send-btn{
-		padding: 18px 75px;
-		font-weight: 500;
-        font-size: 18px;
-        line-height: 1.1;
-        letter-spacing: -0.02em;
-        color: #fbfbfb;
-	}
-
+  .send-btn {
+    padding: 18px 75px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .rent-a-yacht {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
 
- .full-content-rent{
-	gap: 50px;
-	}
+  .rent-section {
+    margin-top: 0px;
+  }
 
-	.rent-a-yacht{
-		display: flex;
-	}
+  .images-about {
+    width: 100%;
+    height: 536px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 
-	.title-rent{
-		min-width: 472px;
-	}
+  .container-rent-content {
+    display: flex;
+    max-width: 472px;
+    box-sizing: border-box;
+  }
 
-	.full-content-rent{
-		display: flex;
-		flex-direction: row-reverse;
-		width: 100%;
-	}
-
-	.rent-section{ 
-		min-width: 472px;
-		display: flex;
-	  flex-direction: column;
-	}
-
-.img-rent{
-	display: flex;
-	min-width: 658px;
-	height: 536px;
-}
-
-
-.container-rent-content{
-	display: flex;
-	min-width: 472px;
-	align-items: center;
-	margin-bottom: 0;
-}
-
-.button-rent{
-	padding: 0;
-	margin-top: 50px;
-}
+  .button-rent {
+    display: flex;
+    min-width: 472px;
+    padding-bottom: 0;
+  }
 }

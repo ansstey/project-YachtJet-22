@@ -3,7 +3,6 @@
   width: 100%;
   padding: 20px;
   z-index: 9999;
-  
 }
 
 .header.is-open {
@@ -46,14 +45,16 @@
   height: 24px;
 }
 
-.header-icon {
+.header-link svg {
   fill: #1b414b;
 }
 
-.header-icon:hover {
+.header-link:focus svg,
+.header-link:hover svg {
   fill: #062730;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .header-logo {
   font-weight: 500;
   font-size: 14px;
@@ -71,6 +72,22 @@
   padding-top: 7px;
   padding-bottom: 7px;
 }
+
+.menu-close-button {
+  display: none;
+}
+
+.menu-close-button.is-visible {
+  display: block !important;
+}
+.menu-open-button-ghost {
+  display: none; 
+}
+
+.menu-open-button-ghost.is-visible {
+  display: block !important; 
+}
+
 @media screen and (min-width: 768px) {
   .header-social-link {
     display: block;
@@ -95,15 +112,12 @@
     color: #1b414b;
   }
   .header-container {
-    
     padding-left: 28px;
     padding-right: 28px;
     position: relative;
   }
   .header {
-  
     padding: 32px;
-
   }
 }
 
@@ -130,12 +144,10 @@
     color: #1b414b;
   }
   .header-container {
-    
     padding-left: 30px;
     padding-right: 30px;
   }
   .header {
-
     padding-right: 100px;
     padding-left: 100px;
     padding-top: 32px;
@@ -165,12 +177,10 @@
     color: #1b414b;
   }
   .header-container {
-    
     padding-left: 30px;
     padding-right: 30px;
   }
   .header {
-
     padding-right: 100px;
     padding-left: 100px;
     padding-top: 32px;

@@ -131,7 +131,7 @@ transform: translateY(0);
   background: rgba(27, 65, 75, 0.5);
   box-shadow: transparent;
   cursor: pointer;
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-ul-li:hover {
   background: #1b414b;
@@ -183,4 +183,6 @@ transform: translateY(0);
   border: transparent;
   background-color: transparent;
 }
+ 
+
 

@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 80px;
 }
 
 .rent-title {
@@ -15,10 +16,6 @@
 
 .rent-form {
   max-width: 335px;
-}
-
-.rent-form-wrap {
-  margin-bottom: 80px;
 }
 
 .rent-input {
@@ -110,16 +107,16 @@
 }
 
 @media screen and (min-width: 768px) {
+  .rent-container {
+    gap: 100px;
+  }
+
   .rent-title {
     font-size: 48px;
     margin-bottom: 50px;
   }
   .rent-form {
     max-width: 473px;
-  }
-
-  .rent-form-wrap {
-    margin-bottom: 100px;
   }
 
   .rent-input {
@@ -177,8 +174,5 @@
   }
   .rent-form {
     max-width: 472px;
-  }
-  .rent-form-wrap {
-    margin-bottom: 0px;
   }
 }

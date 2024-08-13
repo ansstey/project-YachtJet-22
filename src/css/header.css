@@ -76,6 +76,8 @@
 .menu-close-button {
   display: none;
   background-color: transparent;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .menu-close-button.is-visible {

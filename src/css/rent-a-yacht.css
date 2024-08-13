@@ -21,7 +21,6 @@ textarea{
 	flex-direction: column;
 	display: flex;
 	align-items: center;
-	margin-bottom: 80px;
 	gap: 40px;
 }
 
@@ -31,6 +30,7 @@ textarea{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	gap: 80px;
 }
 
 .rent-section{
@@ -156,6 +156,11 @@ textarea::placeholder{
 
 
 @media screen and (min-width: 768px) {
+  .full-content-rent{
+	gap: 100px;
+	}
+
+
 
 	.rent-section{
 		min-width: 704px; 
@@ -175,7 +180,6 @@ textarea::placeholder{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-bottom: 100px;
 		gap: 50px;
 	}
 
@@ -220,6 +224,10 @@ textarea::placeholder{
 
 @media screen and (min-width: 1280px) {
 
+ .full-content-rent{
+	gap: 50px;
+	}
+
 	.rent-a-yacht{
 		display: flex;
 	}
@@ -251,7 +259,6 @@ textarea::placeholder{
 	display: flex;
 	min-width: 472px;
 	align-items: center;
-	margin-left: 50px;
 	margin-bottom: 0;
 }
 

@@ -1,11 +1,8 @@
-<!--RENT A YACHT-->
-<section class="section">
-  <div class="container rent-a-yacht">
-    <form class="rent-section" id="rent">
-      <div class="container-rent-content">
-        <div class="container-rent">
-          <h3 class="title-rent">Rent a yacht now</h3>
-        </div>
+<section class="rent-a-yacht section">
+  <div class="full-content-rent container">
+    <div class="container-rent-content">
+      <h3 class="title-rent">Rent a yacht now</h3>
+      <form class="rent-section" id="rent">
         <div class="rent-form">
           <div class="rent-field">
             <label for="user-name" class="rent-label"></label>
@@ -55,7 +52,6 @@
           <div class="comments-fields">
             <label for="user-comment" class="rent-label"></label>
             <textarea
-              type="submit"
               name="user-comment"
               id="user-comment"
               class="rent-textarea"
@@ -63,41 +59,32 @@
             ></textarea>
           </div>
         </div>
+        <div class="button-rent">
+          <button type="submit" class="send-btn">Send</button>
+        </div>
+      </form>
+      <div class="images-about">
+        <picture class="picture-rent">
+          <source
+            srcset="/img/rent-a-yacht/rent-desk-1x.jpg 1x, /img/rent-a-yacht/rent-desk-2x.jpg 2x"
+            media="(min-width:1280px)"
+          />
+          <source
+            srcset="/img/rent-a-yacht/rent-tab-1x.jpg 1x, /img/rent-a-yacht/rent-tab-2x.jpg 2x"
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="/img/rent-a-yacht/rent-mob-1x.jpg 1x, /img/rent-a-yacht/rent-mob-2x.jpg 2x"
+            media="(max-width:767px)"
+          />
+          <img
+            class="img-rent"
+            src="/img/rent-a-yacht/rent-desk-1x.jpg"
+            alt="Rent a yacht"
+            width="335"
+          />
+        </picture>
       </div>
-      <div class="button-rent">
-        <button type="submit" class="send-btn">Send</button>
-      </div>
-    </form>
-    <div class="images-about">
-      <picture class="picture-about">
-        <source
-          srcset="
-            /img/rent-a-yacht/rent-desk-1x.jpg 1x,
-            /img/rent-a-yacht/rent-desk-2x.jpg 2x
-          "
-          media="(min-width:1280px)"
-        />
-        <source
-          srcset="
-            /img/rent-a-yacht/rent-tab-1x.jpg 1x,
-            /img/rent-a-yacht/rent-tab-2x.jpg 2x
-          "
-          media="(min-width:768px)"
-        />
-        <source
-          srcset="
-            /img/rent-a-yacht/rent-mob-1x.jpg 1x,
-            /img/rent-a-yacht/rent-mob-2x.jpg 2x
-          "
-          media="(max-width:767px)"
-        />
-        <img
-          class="img-rent"
-          src="/img/rent-a-yacht/rent-desk-1x.jpg"
-          alt="Rent a yacht"
-          width="335"
-        />
-      </picture>
     </div>
   </div>
 </section>

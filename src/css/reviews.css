@@ -15,8 +15,6 @@
   display: flex;
   align-items: center;
   max-width: 335px;
-  /* margin: 0px auto; */
-  /* margin-bottom: 25px; */
 }
 
 .reviews-text {
@@ -55,7 +53,6 @@
 
 .reviews-image-thumb {
   display: block;
-  /* margin-bottom: 24px; */
 }
 
 .reviews-image {
@@ -69,7 +66,6 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #040306;
-  /* margin-bottom: 8px; */
 }
 
 .reviews-review {

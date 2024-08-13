@@ -75,6 +75,7 @@
 
 .menu-close-button {
   display: none;
+  background-color: transparent;
 }
 
 .menu-close-button.is-visible {
@@ -82,6 +83,7 @@
 }
 .menu-open-button-ghost {
   display: none; 
+  background-color: transparent;
 }
 
 .menu-open-button-ghost.is-visible {

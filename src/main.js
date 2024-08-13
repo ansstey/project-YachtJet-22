@@ -53,8 +53,10 @@
     openMenuBtn.classList.remove('js-close-menu');
     openMenuBtn.classList.add('js-open-menu');
     openMenuBtn.querySelector('use').setAttribute('href', '/img/icons.svg#icon-open-menu');
+    openMenuBtn.querySelector('svg').setAttribute('width', '24');
+    openMenuBtn.querySelector('svg').setAttribute('height', '24');
     closeMenuBtn.classList.remove('is-visible');
-    openMenuBtnGhost.classList.add('is-visible');
+    openMenuBtnGhost.classList.remove('is-visible');
     bodyScrollLock.enableBodyScroll(document.body);
   };
 
@@ -63,4 +65,6 @@
   openMenuBtnGhost.addEventListener('click', toggleMenu);
 
   window.matchMedia('(min-width: 768px)').addEventListener('change', matchMedia);
+
+  matchMedia(window.matchMedia('(min-width: 768px)'));
 })();
